@@ -32,7 +32,7 @@ namespace NUnitTestProjectV1
                                            //div[@id='ContentPlaceHolder1_AllMealsCombo-dropmenu']//following-sibling::li[text()='Celery']
 
             CustomController control = new CustomController();
-            control.ComboBox("ContentPlaceHolder1_AllMealsCombo", "Celery");
+            control.ComboBox("ContentPlaceHolder1_AllMealsCombo", "CeleryM");
 
 
             driver.Quit();
